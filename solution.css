@@ -1,0 +1,11 @@
+/* solution.css */
+.container {
+  width: 500px; /* Or width: 100%; if the parent is within a fixed-width container */
+  display: flex;
+}
+
+.item {
+  width: calc(100% - 20px);
+  background-color: lightblue;
+  margin: 10px;
+}
